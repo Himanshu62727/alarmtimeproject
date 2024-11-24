@@ -80,10 +80,10 @@ function formatTime(seconds) {
 }
 
 // Alarm //
-function playAlarm() {
-  const alarmSound = new Audio('https://www.soundjay.com/button/beep-07.wav');
-  alarmSound.play();
-}
+// function playAlarm() {
+//   const alarmSound = new Audio('#');
+//   alarmSound.play();
+// }
 
 
 
