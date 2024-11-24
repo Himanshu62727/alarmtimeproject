@@ -1,0 +1,85 @@
+body {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .timer-input {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .timer-input input {
+    width: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .timer-input button {
+    background-color: #f0d800;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .current-timers-btn {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin: 40px 0;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+  }
+  
+  .active-timers {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .timer-item {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+  }
+  
+  .timer-item button {
+    background-color: #f0d800;
+    color: #000;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .timer-ended {
+    background-color: #f0d800;
+    color: #000;
+  }
+  
